@@ -104,5 +104,3 @@ enum BookStatus {
 ## Scripts
 - Backend: `npm run dev`, `npm run build`, `npm start`
 - Frontend: `npm run dev`, `npm run build`, `npm run preview`, `npm run lint`
-
-Enjoy managing your books! 📚
