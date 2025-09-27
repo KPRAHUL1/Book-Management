@@ -80,10 +80,8 @@ const BookModal = () => {
     'Classic Literature',
     'Dystopian Fiction',
     'Romance',
-    'Romance',
     'Coming-of-age',
     'Fantasy',
-    'Gothic Romance',
     'Gothic Romance',
     'Gothic Literature',
     'Science Fiction',
@@ -204,7 +202,7 @@ const BookModal = () => {
                       )}
                     >
                       <option value="">Select a genre</option>
-                      {genres.filter((g) => g !== 'Romance').map((genre) => (
+                      {genres.map((genre) => (
                         <option key={genre} value={genre}>
                           {genre}
                         </option>
